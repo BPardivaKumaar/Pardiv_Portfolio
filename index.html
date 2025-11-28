@@ -1,0 +1,371 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B Pardiv - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/icons/Favicon.png" type="image/svg+xml" />
+</head>
+
+<body>
+    <!-- Navigation Bar -->         
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">Portfolio</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#academics" class="nav-link">Academics</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#internships" class="nav-link">Internships</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <span class="sun-icon">☀️light</span>
+                <span class="moon-icon" style="color:hsl(0, 0%, 100%);">dark🌙</span>
+            </button>
+            
+        </div>
+    </nav>
+
+    <!-- Home Section -->           
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="home-content">
+                <div class="profile-photo-wrapper">
+                    <img src="assets/images/P_Photo.jpeg" alt="Profile Photo" class="profile-photo">
+                </div>
+                <h1 class="home-title gradient-text">B Pardiv Satya Kumar</h1>
+                <p class="home-tagline">B.Tech Graduate | Electronics and Communication Engineering</p>
+                <div class="home-buttons">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="assets/files/Pardiv_Resume_CV.pdf" target="_blank" class="btn btn-secondary">View My Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academics Section -->         
+    <section id="academics" class="academics-section section">
+        <div class="container">
+            <h2 class="section-title">Academic Background</h2>
+            <div class="academics-grid">
+                <div class="academic-card">
+                    <div class="academic-icon">🎓</div>
+                    <h3>B.Tech in <i>Electronics and Communication Engineering</i></h3>
+                    <p class="institution">VIT-AP University, India</p>
+                    <p class="year">2021 - 2025</p>
+                    <p class="grade">CGPA : 8.72 / 10 <br>Percentage : 87.2 %</p>
+                </div>
+                <div class="academic-card">
+                    <div class="academic-icon">📚</div>
+                    <h3>12th/Intermediate in MPC </h3>
+                    <p class="institution">Sri Chaitanya jr college, India</p>
+                    <p class="year">2021</p>
+                    <p class="grade">Percentage : 86.7 %</p>
+                </div>
+                <div class="academic-card">
+                    <div class="academic-icon">📖</div>
+                    <h3>SSC (10th)</h3>
+                    <p class="institution">AGK Municipal High School, India</p>
+                    <p class="year">2019</p>
+                    <p class="grade">Percentage : 97 %</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->           
+    <section id="projects" class="projects-section section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                 <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/CircuitDiagram_Wokwi.png" alt="Intelligent Door Lock System  image">
+                    </div>
+                    <div class="project-content">
+                        <h3>Intelligent Door Lock System </h3>
+                        <p>This project presents the development of an IoT-enabled smart door security system using an ESP32 microcontroller, 
+                            designed as part of my <b>4th-year</b> first-semester work (2025). It includes a servo smart lock, PIR motion detection, 
+                            a DHT22 sensor, keypad authentication, and an LCD for real-time updates. Using MQTT and a Node-RED dashboard, 
+                            users can remotely monitor the system and lock or unlock the door. The design supports extensions like an ESP32-CAM 
+                            for video and voice communication. This open-source, customizable, and cost-efficient solution highlights my skills 
+                            in embedded systems, IoT communication, and practical automation.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Esp32</span>
+                            <span class="tech-tag">Embedded C/C++</span>
+                            <span class="tech-tag">Sensors</span>
+                            <span class="tech-tag">Node red</span>
+                            <a href="assets/files/IoT_SA_Project.pdf" target="_blank" class="btn btn-secondary" id="view">more details > </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/ECS2.jpeg" alt="Accident Prevention and Alert system image">
+                    </div>
+                    <div class="project-content">
+                        <h3>Accident Prevention and Alert system</h3>
+                        <p>I developed this project in my <b><i>3rd year</i></b> as part of my ECS coursework. It introduces a prevention and alert system 
+                            that warns the driver when the vehicle is at risk or goes out of control, helping reduce the chances of accidents. 
+                            If an accident occurs, the system automatically sends details about the incident and the vehicle’s status to 
+                            a mobile application on the user's phone. The project focuses on safety, real-time monitoring, and quick communication 
+                            during emergencies. With small modifications, this system can be adapted for different types of automobiles 
+                            making it highly scalable & practical.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Ardiuno</span>
+                            <span class="tech-tag">C/C++</span>
+                            <span class="tech-tag">Sensors</span>
+                            <span class="tech-tag">GSM module</span>
+                            <a href="assets/files/REVIEW - 3.pdf" target="_blank" class="btn btn-secondary" id="view">more details > </a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/images/ECS1.jpeg" alt="SURVILLANCE ROBOT image">
+                    </div>
+                    <div class="project-content">
+                        <h3>SURVILLANCE ROBOT</h3>
+                        <p>This project, which I completed in the <b><i>2nd year</i></b> of my B.Tech, is a Wi-Fi controlled robotic car built using 
+                            an ESP32-CAM and a smartphone. It is designed for simple surveillance, with a camera that streams live video to a web browser. 
+                            The same webpage also lets the user control the robot's movement-forward, backward, left, and right. The setup includes 
+                            an ESP32-CAM, L293D motor driver, two DC motors, and a basic chassis. Commands are sent wirelessly from the phone, 
+                            and the robot moves accordingly while sharing real-time video. This makes the system useful for basic spying, monitoring, and remote observation tasks.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">ESP32-CAM</span>
+                            <span class="tech-tag">HTTP</span>
+                            <span class="tech-tag">OV2640 Camera</span>
+                            <a href="assets/files/SurvillanceRobot_Report.pdf" target="_blank" class="btn btn-secondary" id="view">more details ></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" >
+                    <div class="project-image">
+                        <img src="assets/images/CSI_Portfolio.png" alt="Portfolio">
+                    </div>
+                    <div class="project-content">
+                        <h3>Creating Portfolio</h3>
+                        <p>I joined the CSI Club in my college during the <b><i>first year</i></b> of my B.Tech, where we were guided through the process of creating our 
+                            own portfolio websites using HTML, CSS, and JavaScript. During these sessions, I learned how to structure 
+                            web pages, apply styling, and add interactive features to make the site more dynamic. 
+                            We were taught the fundamentals of front-end development, including layout design, responsive styling, and 
+                            basic scripting. By the end of the training, I was able to build a personalized portfolio website that highlights 
+                            my skills, achievements, and projects, giving me a solid foundation in web development.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML 5</span>
+                            <span class="tech-tag">CSS 3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <a href="https://bpardivakumaar.github.io/BPardiv.github.io/" target="_blank" class="btn btn-secondary" id="view">more details ></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internships Section -->            
+    <section id="internships" class="internships-section section">
+        <div class="container">
+            <h2 class="section-title">Internships</h2>
+            <div class="internships-timeline">
+                <div class="internship-card">
+                    <div class="internship-icon"><img src="assets/icons/VLSI_image_mini.jpg" style="padding:4rem 0;"></div> <!-- default icons 🏢🖥-->
+                    <div class="internship-content">
+                        <h3>VLSI Design Internship</h3>
+                        <p class="company">Maven Silicon Softech Pvt Ltd.</p>
+                        <p class="duration">August 2023 - October 2023</p>
+                        <p class="description">This project involves designing an AHB-to-APB bridge that enables smooth communication between 
+                            high-speed AHB components and slower APB peripherals in an SoC. The bridge ensures proper data transfer, 
+                            protocol conversion, and timing control, allowing different system modules to work together efficiently and reliably.</p>
+                        <a href="assets/files/AHB2APB_BridgeDesign_Report_PardivB.pdf " target="_blank" class="btn btn-secondary" id="view">more details ></a>
+                        <a href="assets/files/AHB2APB_BridgeDesign Intern_certifcate-109.pdf" target="_blank" class="btn btn-primary" id="view">view Certificate ></a>
+                    </div>
+                </div>
+
+                <div class="internship-card">
+                    <div class="internship-icon"><img src="assets/icons/Iot2_mini.jpg" style="padding:4rem 0;"> </div> <!-- 💼-->
+                    <div class="internship-content">
+                        <h3>Internet Of Things Intern</h3>
+                        <p class="company">Vision Technologies</p>
+                        <p class="duration">July 2023 - September 2023</p>
+                        <p class="description">I built an energy-monitoring system using Raspberry Pi, temperature sensors, MQTT, and cloud integration. 
+                            The Raspberry Pi acted as an edge device to collect real-time sensor data and publish it to an MQTT broker for centralized processing. 
+                            This setup enabled continuous monitoring, analytics, and efficient decision-making for optimizing energy usage. The solution helps 
+                            companies reduce energy costs and improve sustainability through IoT-driven automation and data insights.</p>
+                        <a href="assets/files/VT_IoT_ProjectReport.pdf " target="_blank" class="btn btn-secondary" id="view">more info ></a>
+                        <a href="assets/files/IoT_Vision_Tech_Intern_Certficate_wm.pdf" target="_blank" class="btn btn-primary" id="view">view Certificate ></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section --> 
+    <section id="certifications" class="certifications-section section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certifications-grid">
+                <div class="certification-card">
+                    <div class="cert-icon" id="vlsi_icon"> <img src="assets/icons/vlsi_icon_flip.jpg" style="width: 50px;"> </div>
+                    <h3>Workshop - VLSI Circuit and System Design Tools</h3>
+                    <p class="issuer">VIT-AP university, Cādence</p>
+                    <p class="cert-date">July 2025</p>
+                    <a href="assets/files/5th 5D_WS_VLSI_Participation Internall_143.pdf" target="_blank" class="btn btn-secondary" id="view">view </a>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-icon"> 🪟 </div>
+                    <h3>MS - Asure Fundamentals</h3>
+                    <p class="issuer">Microsoft</p>
+                    <p class="cert-date">May 2024</p>
+                    <a href="assets/files/MS_LearnStudentAmbassador.pdf" target="_blank" class="btn btn-secondary" id="view">view </a>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-icon"> 🏭 </div>
+                    <h3>Industrial approach to IoT</h3>
+                    <p class="issuer">VIT-AP University, IETE</p>
+                    <p class="cert-date">March 2024</p>
+                    <a href="assets/files/2nd 1W WS on IoT_Participation Cert-177.pdf" target="_blank" class="btn btn-secondary" id="view">view </a>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-icon">🛜☁️</div>
+                    <h3>Intriduction to IoT</h3>
+                    <p class="issuer">Cisco</p>
+                    <p class="cert-date">August 2022</p>
+                    <a href="assets/files/Cisco_IntroToIoT_B2C_certificate.pdf" target="_blank" class="btn btn-secondary" id="view">view </a>
+                </div>
+                <div class="certification-card">
+                    <div class="cert-icon" > <img src="assets/icons/processor_mini.jpg" alt="icon"></div> 
+                    <h3>VLSI </h3>
+                    <p class="issuer">Coincent - APSIS Solutions</p> 
+                    <p class="cert-date">March 2022</p>
+                    <a href="assets/files/Coincent trainingCompli Certificate.pdf" target="_blank" class="btn btn-secondary" id="view">view </a>
+                </div>
+                <!-- & more--> 
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->       
+    <section id="achievements" class="achievements-section section">
+        <div class="container">
+            <h2 class="section-title">Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievement-card">
+                    <div class="achievement-icon">📄 <h3> Published Research Paper</h3></div>
+                    <div class="achievement-content">
+                        <p>The research paper titled <u><i>“ BER Analysis of NOMA-CRS with ML-Aided PS-PA Power Optimization 
+                            over Nakagami-m Channels ”</i></u> focuses on enhancing cooperative wireless communication using 
+                            Non-Orthogonal Multiple Access (NOMA).This research was completed as part of my final-year project, 
+                            and I personally presented the paper at the <b>AISTS 2025 Conference</b>. The paper was officially published 
+                            on the IEEE website in November 2025, providing significant academic recognition and technical exposure.</p>
+                        <span class="year-badge">2025</span>
+                        <a href="assets/files/ieee_paper_published.pdf" target="_blank" class="btn btn-secondary" id="view">view </a>
+                        <a href="assets/files/AISTS_2025 Pardiv Satya Kumar.pdf" target="_blank" class="btn btn-primary" id="view">view Certificate ></a>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🏆 <h3>Student Coordinator in Sports & Cultural fest</h3></div>
+                    <div class="achievement-content">
+                        <p>I served as the <i><b>Student Coordinator</b></i> for the Enquiry and Announcement Desk at <b>Vitopia 2023</b>, <i>VIT-AP's annual Sports and Cultural fest.</i> 
+                            My role involved managing event-related queries, coordinating announcements, ensuring smooth communication between organizing teams, 
+                            and assisting participants with accurate information. I contributed to efficient event flow, crowd management, and real-time updates, 
+                            helping maintain clear coordination throughout the fest.</p>
+                        <span class="year-badge">2023</span>
+                        <a href="assets/images/Vtopia_2023.jpeg" target="_blank" class="btn btn-secondary" id="view">view </a>
+                    </div>
+                </div>
+                <div class="achievement-card">
+                    <div class="achievement-icon">🥇 <h3>City Topper Award</h3></div>
+                    <div class="achievement-content">
+                        <p> I achieved the <b>City Topper</b> title in Technothlon 2019, the international school championship conducted by Techniche, IIT Guwahati. 
+                            Representing the Hauts squad, I secured the top rank in the Eluru city prelims. I received the official certificate and medal in 2020 
+                            while studying Intermediate 1st year (AY 2019–20). <br>This accomplishment highlights my strong analytical thinking, 
+                            problem-solving skills, and ability to perform competitively at a national level.</p>
+                        <span class="year-badge">2019</span>
+                        <a href="assets/images/CityTopper_Technothlon.jpg" target="_blank" class="btn btn-secondary" id="view">view </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->        
+    <section id="contact" class="contact-section section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:kumarbps739@gmail.com">kumarbps739@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div>
+                            <h4>Phone, Whatsapp</h4>
+                            <a href="tel:+917893724436">+91 78937 24436</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Mangalagiri, Andhra Pradesh, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/pardiv-satya-kumar-buddanti-19048826a" target="_blank" class="social-icon" aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="24" height="24">
+                            <path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                        </svg>
+                    </a>
+                    <a href="https://github.com/BPardivaKumaar" target="_blank" class="social-icon" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" width="24" height="24">
+                            <path fill="currentColor" d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/>
+                        </svg>
+                    </a>
+                    <a href="https://instagram.com/psk__919" target="_blank" class="social-icon" aria-label="Twitter">
+                        <svg viewBox="0 0 16 16" width="24" height="24">
+                            <path fill="currentColor" d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->     
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-nav">
+                    <a href="#home">Home</a>
+                    <a href="#academics">Academics</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#internships">Internships</a>
+                    <a href="#certifications">Certifications</a>
+                    <a href="#achievements">Achievements</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <p class="copyright"> &copy; B Pardiv. All rights reserved. </p>    
+            </div>
+        </div>
+    </footer>
+
+    <script src="Script.js"></script>
+</body>
+</html>
+<!--********************** Code ************************-->          <!--******************* End ************************-->
